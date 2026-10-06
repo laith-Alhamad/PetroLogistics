@@ -1,0 +1,21 @@
+هل CustomerId موجود؟
+        ↓
+NO → Error ❌
+YES
+        ↓
+هل ProductId موجود؟
+        ↓
+NO → Error ❌
+YES
+        ↓
+هل Product Active؟
+        ↓
+NO → Error ❌
+YES
+        ↓
+هل ShipmentNumber مستخدم مسبقاً؟
+        ↓
+YES → 409 Conflict ❌
+NO
+        ↓
+Create Shipment ✅

@@ -1,0 +1,44 @@
+# =========================
+# ASP.NET Core  Visual Studio
+# =========================
+.vs
+bin
+obj
+
+.user
+.suo
+.userosscache
+.sln.docstates
+
+# =========================
+# React  Node  Vite
+# =========================
+node_modules
+dist
+.vite
+
+# Environment files
+.env
+.env.
+!.env.example
+
+# =========================
+# Logs
+# =========================
+.log
+logs
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Sensitive  Local files
+# =========================
+Passwords.txt
+passwords.txt
+
+# Local development settings
+appsettings.Local.json

@@ -1,0 +1,11 @@
+ShipmentsController
+        ↓
+يطلب IShipmentService
+        ↓
+Dependency Injection Container
+        ↓
+يعطيه ShipmentService
+        ↓
+ShipmentService يستخدم AppDbContext
+        ↓
+SQL Server

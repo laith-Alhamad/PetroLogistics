@@ -1,0 +1,9 @@
+Controller
+    ↓
+IProductService
+    ↓
+ProductService
+    ↓
+AppDbContext
+    ↓
+SQL Server

@@ -1,0 +1,13 @@
+CreateShipmentDto
+       ↓
+Business Rules
+       ↓
+Shipment Entity
+       ↓
+SaveChangesAsync()
+       ↓
+ShipmentResponseDto
+       ↓
+Controller
+       ↓
+JSON

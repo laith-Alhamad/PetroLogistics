@@ -1,0 +1,31 @@
+Projection
+
+public async Task<IEnumerable<ShipmentResponseDto>> GetAllAsync()
+{
+    return await _context.Shipments
+        .Select(s => new ShipmentResponseDto
+        {
+            Id = s.Id,
+            ShipmentNumber = s.ShipmentNumber,
+
+            CustomerId = s.CustomerId,
+            CustomerName = s.Customer.Name,
+
+            ProductId = s.ProductId,
+            ProductName = s.Product.Name,
+            ProductCode = s.Product.ProductCode,
+
+            Quantity = s.Quantity,
+            Origin = s.Origin,
+            Destination = s.Destination,
+            ShipmentDate = s.ShipmentDate,
+            Status = s.Status
+        })
+        .ToListAsync();
+}
+
+
+.Select(s => new ShipmentResponseDto
+{
+    ...
+})
